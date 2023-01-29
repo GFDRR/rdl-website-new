@@ -1,19 +1,16 @@
 ---
 title: Risk Data Library
 blocks:
-  - headline: Welcome to the Tina Starter
+  - headline: Understanding risk with better data
     text: >
-      This project is set up to show you the basics of working with Tina. You're
-      looking at the landing page, which pulls content from
-      content/pages/home.md, components from components/blocks, and puts them
-      all together in pages/\[filename].tsx, all based on a schema defined in
-      .tina/schema.ts.
+      Our objective is to build open standards, tools, and skills to work with
+      disaster and climate risk data
     actions:
       - label: Get Started
         type: button
         icon: true
         link: /posts
-      - label: Read Blog
+      - label: Documentation
         type: link
         icon: false
         link: /posts
@@ -50,4 +47,5 @@ blocks:
     color: tint
     _template: features
 ---
+
 
