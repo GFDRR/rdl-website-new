@@ -1,7 +1,8 @@
 ---
 title: Risk Data Library
 blocks:
-  - headline: Understanding risk with better data
+  - tagline: ''
+    headline: Understanding risk with better data
     text: >
       Our objective is to build open standards, tools, and skills to work with
       disaster and climate risk data
@@ -10,6 +11,16 @@ blocks:
       alt: ''
     color: primary
     _template: hero
+  - body: >
+      ## Solving the Puzzle of Risk Data
+
+
+      Understanding disaster and climate risk is a complex and fast-evolving
+      field of research. Historically, it has largely taken place through the
+      use of proprietary data and tools to the benefit of the most advanced
+      countries.
+    color: default
+    _template: content
   - items:
       - icon:
           name: BiCodeBlock
@@ -36,6 +47,7 @@ blocks:
     color: tint
     _template: features
 ---
+
 
 
 
