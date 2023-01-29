@@ -5,21 +5,10 @@ blocks:
     text: >
       Our objective is to build open standards, tools, and skills to work with
       disaster and climate risk data
-    actions:
-      - label: Get Started
-        type: button
-        icon: true
-        link: /posts
-      - label: Documentation
-        type: link
-        icon: false
-        link: /posts
     image:
-      src: /uploads/unsplash-75EFpyXu3Wg.jpg
-      alt: >-
-        Photo of palm trees at sunset by Adam Birkett -
-        unsplash.com/photos/75EFpyXu3Wg
-    color: default
+      src: ''
+      alt: ''
+    color: primary
     _template: hero
   - items:
       - icon:
@@ -47,5 +36,6 @@ blocks:
     color: tint
     _template: features
 ---
+
 
 
