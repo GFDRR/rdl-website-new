@@ -32,6 +32,6 @@
   "theme": {
     "color": "purple",
     "font": "lato",
-    "darkMode": "dark"
+    "darkMode": "system"
   }
 }
