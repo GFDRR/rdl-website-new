@@ -2,10 +2,10 @@
 title: Risk Data Library
 blocks:
   - tagline: ''
-    headline: Understanding risk with better data
+    headline: Disaster and climate risk data as a digital public good
     text: >
-      Our objective is to build open standards, tools, and skills to work with
-      disaster and climate risk data
+      We build open data, standards, tools, and skills to help understand
+      disaster and climate risks anywhere on Earth
     image:
       src: ''
       alt: ''
@@ -47,6 +47,7 @@ blocks:
     color: tint
     _template: features
 ---
+
 
 
 
