@@ -1,0 +1,39 @@
+backend:
+  name: github
+  repo: GFDRR/rdl-website-new # Path to your GitHub repository
+  # optional, defaults to master
+  # branch: main
+
+  # This line should *not* be indented
+#publish_mode: editorial_workflow
+
+
+  # These lines should *not* be indented
+
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: "post" # Used in routes, e.g., /admin/collections/post
+    label: "Post" # Used in the UI
+    folder: "collections/_posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+
+  ---
+layout: post
+title: "Hosting Your Static Site"
+date: 2018-09-13T05:22:42Z
+authors: ["Sage Kirk", "Mike Vance"]
+categories: ["Hosting", "Development"]
+description: "Hosting your website as a static site will improve performance and improve security."
+thumbnail: "/assets/images/gen/blog/blog-1-thumbnail.webp"
+image: "/assets/images/gen/blog/blog-1.webp"
+---
