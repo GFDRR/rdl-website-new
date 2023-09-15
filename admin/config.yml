@@ -2,12 +2,7 @@ backend:
   name: github
   repo: GFDRR/rdl-website-new # Path to your GitHub repository
   api_root: https://api.github.com
-  # optional, defaults to master
-  # branch: main
-
-  # This line should *not* be indented
-#publish_mode: editorial_workflow
-
+  branch: main
 
   # These lines should *not* be indented
 
