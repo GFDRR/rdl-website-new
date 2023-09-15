@@ -1,7 +1,7 @@
 # -------------------
 # Jekyll Config
 # --------------------
-baseurl: "rdl-website-new"
+baseurl: ""
 url: ""
 permalink: pretty
 markdown: kramdown
