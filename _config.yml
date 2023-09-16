@@ -86,7 +86,7 @@ category_dir: category
 
 colors:
   #light-mode colors
-  primary: "#2b3af7"
+  primary: "#0b3860"
   primary_2: "#424ff8"
   primary_text: "#fdfcf9"
   secondary: "#702bf7"
@@ -119,16 +119,16 @@ fonts:
   logo: "Lato"
 
 logo:
-  logo_text: "Jekyll Advance"
+  logo_text: "Risk Data Library"
   logo_image: assets/images/logo/logo.png
   logo_image_mobile: assets/images/logo/logo-mobile.png
   logo_image_invert: assets/images/logo/logo-invert.png
   logo_image_invert_mobile: assets/images/logo/logo-invert-mobile.png
-  logo_image_desktop_height: "30px"
-  logo_image_desktop_width: "132px"
+  logo_image_desktop_height: "32px"
+  logo_image_desktop_width: ""
   logo_image_mobile_height: "30px"
-  logo_image_mobile_width: "34px"
-  show_logo_image_on_mobile: true
+  logo_image_mobile_width: ""
+  show_logo_image_on_mobile: false
   show_logo_image_on_desktop: true
   show_logo_text_on_mobile: false
   show_logo_text_on_desktop: false
@@ -140,10 +140,10 @@ seo:
   meta_twitter_creator: "@zerostaticio"
 
 header: 
-  fixed: true
+  fixed: false
 
 darkmode:
-  enable_dark_mode: true
+  enable_dark_mode: false
   show_dark_mode_toggle_in_header: false
   show_dark_mode_toggle_in_bottom: true
   show_dark_mode_toggle_in_mobile_menu: true
@@ -165,13 +165,13 @@ contact_form:
 
 menu: 
   show_dropdown_items_in_mobile_menu: false
-  show_social_media_in_mobile_menu: true
+  show_social_media_in_mobile_menu: false
 
 footer:
   enable_footer: true # show/hide the entire footer
-  footer_title: "Jekyll Advance"
-  footer_description: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
-  enable_social_media_icons: true
+  footer_title: "Risk Data Library"
+  footer_description: " An initiative of the Global Facility for Disaster Reduction and Recovery (GFDRR)."
+  enable_social_media_icons: false
   enable_contact_details: true
   enable_menu_footer_primary: true
   enable_menu_footer_secondary: true
@@ -183,7 +183,7 @@ footer:
 bottom:
   enable_bottom: true # show/hide the entire bottom (below the footer)
   enable_bottom_menu: true # if enabled, the bottom menu can be edited in `_data/menu.yml`
-  copyright_text: "© 2021 Zerostatic Themes"
+  copyright_text: "© 2023 Global Facility for Disaster Reduction and Recovery"
 
 sidebar:
   enable_sidebar_services: true

@@ -1,35 +1,28 @@
 ---
 layout: home
 permalink: "/"
-title: "Jekyll Advance"
+title: "The Risk Data Library"
 description: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
 header_transparent: true
-meta_title: Jekyll Advance - Premium Jekyll Theme
+meta_title: The Risk Data Library
 
 hero:
   enabled: true
-  heading: "Jekyll Advance"
-  sub_heading: "Built using highly configurable sections, Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
+  heading: "A new toolkit for risk data"
+  sub_heading: "Open data, standard, and software to act on disaster and climate risk."
   text_color: "#FFFFFF"
-  background_color: "#1d2830"
-  background_gradient: true
-  background_image: "/assets/images/gen/home/home-1-large.webp"
-  background_image_blend_mode: overlay # "overlay", "multiply", "screen"
+  background_color: "#0b3860"
+  background_gradient: false
+  background_image: "/assets/images/gen/home/home-1.webp"
+  background_image_blend_mode: multiply # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: false
   height: "660px"
   buttons:
     enabled: false
     list:
-      - text: "Buy Now"
-        url: "https://www.zerostatic.io/theme/jekyll-advance/"
-        external: true
-        fa_icon: false
-        size: large # "small", "normal", "large"
-        outline: false
-        style: "light" # "light", "dark", "primary"
       - text: "Documentation"
-        url: "https://www.zerostatic.io/docs/jekyll-advance/v2.0/"
+        url: "https://docs.riskdatalibrary.org/en/latest/"
         external: true
         fa_icon: false
         size: large
@@ -37,7 +30,7 @@ hero:
         style: "light"
 
 services:
-  enabled: true
+  enabled: false
   heading: "Our Services"
   sub_heading: ""
   limit: 6
@@ -49,9 +42,10 @@ services:
 intro:
   enabled: true
   align: left
-  image: "/assets/images/gen/content/content-5-thumbnail.webp"
-  heading: "We've helped hundreds of people grow their business online."
-  sub_heading: "Our software empowers customers and retailers to work from anywhere in the world, on the go, or at home."
+  image: "/assets/images/gen/content/content-2-thumbnail.webp"
+  heading: "Risk Data Library Standard"
+  sub_heading: "The production and access to disaster risk information remains a challenge. There is a need for a common language to work better together with risk data."
+  
   features:
     enabled: false
     list:
@@ -66,18 +60,13 @@ intro:
   buttons:
     enabled: true
     list:
-      - text: "About Us"
-        url: "/about"
+      - text: "Documentation"
+        url: "https://docs.riskdatalibrary.org"
         external: false
         fa_icon: ""
         size: large
         outline: false
         style: "primary"
-
-partners:
-  enabled: true
-  limit: 5
-  sort: "weight" # 'date'
 
 projects:
   enabled: true

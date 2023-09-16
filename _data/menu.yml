@@ -74,8 +74,8 @@ footer_tertiary:
     weight: 3
 bottom:
   - name: Privacy Policy
-    url: /privacy-policy/
+    url: https://www.gfdrr.org/en/privacy-policy
     weight: 3
   - name: Terms and Conditions
-    url: /terms-and-conditions/
+    url: https://www.gfdrr.org/en/terms-of-use
     weight: 4

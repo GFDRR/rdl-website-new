@@ -61,9 +61,10 @@
 .header-scrolled {
   transition: all 200ms linear;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
-  color: var(--color-primary);
+  background-color: var(--color-primary);
+    color: white;
   a {
-    color: var(--color-primary);
+    color: white;
   }
 }
 .header-fixed {
