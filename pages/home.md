@@ -9,7 +9,7 @@ meta_title: The Risk Data Library
 hero:
   enabled: true
   heading: "A new toolkit for risk data"
-  sub_heading: "Open data, standard, and software to act on disaster and climate risk."
+  sub_heading: "Open data, standard, and software to act on disaster and climate risk"
   text_color: "#FFFFFF"
   background_color: "#0b3860"
   background_gradient: false
