@@ -3,11 +3,11 @@ layout: list
 collection: "projects"
 title: Projects
 description: "A selection of our work and projects."
-permalink: "/projects/"
+permalink: "/project_old/"
 header_transparent: true
 
 hero:
-  enabled: true
+  enabled: false
   heading: "Projects"
   sub_heading: "Our portfolio of work and projects."
   text_color: "#FFFFFF"

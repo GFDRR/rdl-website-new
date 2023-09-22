@@ -1,15 +1,16 @@
 ---
 layout: home
 permalink: "/"
-title: "The Risk Data Library"
-description: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
+title: "Risk Data Library"
+description: "Risk Data Library"
 header_transparent: true
-meta_title: The Risk Data Library
+meta_title: Risk Data Library
+
 
 hero:
   enabled: true
-  heading: "A new toolkit for risk data"
-  sub_heading: "Open data, standard, and software to act on disaster and climate risk"
+  heading: "Risk data is for everyone"
+  sub_heading: "Open standard and tools to make it easier to work with disaster and climate risk data"
   text_color: "#FFFFFF"
   background_color: "#0b3860"
   background_gradient: false
@@ -17,11 +18,11 @@ hero:
   background_image_blend_mode: multiply # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: false
-  height: "660px"
+  height: "500px"
   buttons:
     enabled: false
     list:
-      - text: "Documentation"
+      - text: "New Risk Data Library Standard"
         url: "https://docs.riskdatalibrary.org/en/latest/"
         external: true
         fa_icon: false
@@ -29,44 +30,17 @@ hero:
         outline: true
         style: "light"
 
-services:
-  enabled: false
-  heading: "Our Services"
-  sub_heading: ""
-  limit: 6
-  sort: "weight" # 'date'
-  view_more_button_text: "View All Services"
-  view_more_button_link: "/services"
-  prevent_click: false
-
 intro:
   enabled: true
   align: left
   image: "/assets/images/gen/content/content-2-thumbnail.webp"
-  heading: "Risk Data Library Standard"
-  sub_heading: "The production and access to disaster risk information remains a challenge. There is a need for a common language to work better together with risk data."
-  
-  features:
-    enabled: false
-    list:
-      - text: "Configure the homepage sections in front-matter."
-        fa_icon: "fas fa-check"
-      - text: "An advanced hero image section with dozens of design options."
-        fa_icon: "fas fa-check"
-      - text: "Fully responsive and SEO optimised."
-        fa_icon: "fas fa-check"
-      - text: "Multiple content types including services, projects, blog and more."
-        fa_icon: "fas fa-check"
-  buttons:
-    enabled: true
-    list:
-      - text: "Documentation"
-        url: "https://docs.riskdatalibrary.org"
-        external: false
-        fa_icon: ""
-        size: large
-        outline: false
-        style: "primary"
+  heading: "Solving the puzzle"
+  sub_heading: "Access to and production of disaster and climate risk studies remain a challenge for the most vulnerable countries. There is a need for a common language to work better together with risk data."
+
+partners:
+  enabled: true
+  limit: 5
+  sort: "weight" # 'date'
 
 projects:
   enabled: true
@@ -83,8 +57,8 @@ outro:
   enabled: true
   align: center
   image: false
-  heading: Get Started Today
-  sub_heading: "Save time and money using this premium Jekyll theme."
+  heading: A new standard for risk data
+  sub_heading: "The Risk Data Library Standard (RDLS) is an open metadata standard for describing risk datasets used in climate and disaster risk assessments."
   features:
     enabled: false
     list:
@@ -93,8 +67,8 @@ outro:
   buttons:
     enabled: true
     list:
-      - text: "Contact Us"
-        url: "/contact"
+      - text: "Read the documentation"
+        url: "https://docs.riskdatalibrary.org/en/latest/"
         external: false
         size: "large"
 
@@ -108,4 +82,5 @@ posts:
   view_more_button_text: "View All Posts"
   view_more_button_link: "/blog"
   prevent_click: false
+---
 ---

@@ -1,56 +1,44 @@
 main:
-  - name: Home
-    url: /
+  - name: Project 
+    url: /project/
     weight: 1
-  - name: Services
-    url: /services/
+  - name: Standard
+    url: /standard/
     weight: 1
     child:
-      - name: "Web Development"
-        url: /services/web-development/
-      - name: "UX"
-        url: /services/user-experience/
-      - name: "Branding"
-        url: /services/branding/
-      - name: "Web Design"
-        url: /services/web-design/
-      - name: "SEO"
-        url: /services/seo/
-      - name: "Software Engineering"
-        url: /services/software-engineering/
-  - name: Projects
-    url: /projects/
+      - name: Documentation
+        url: https://docs.riskdatalibrary.org/en/latest/
+        weight: 1
+      - name: Repository
+        url: https://github.com/GFDRR/rdl-standard
+        weight: 2
+      - name: Conversion tool
+        url: https://metadata.riskdatalibrary.org/
+        weight: 3
+      - name: Steering Committee
+        url: https://github.com/GFDRR/rdl-standard/tree/0.2-dev/SteeringCommittee
+        weight: 4
+  - name: Data
+    url: /data/
     weight: 2
-    child:
-      - name: "Book Design"
-        url: /projects/book-design/
-      - name: "Special Edition"
-        url: /projects/special-edition/
-      - name: "Master System"
-        url: /projects/master-system/
-      - name: "Clothing Range"
-        url: /projects/clothing-range/
+  - name: Resources
+    url: /resources/
+    weight: 3
+  - name: Fellows
+    url: /fellows/
+    weight: 4
   - name: Blog
     url: /blog/
-    weight: 4
-  - name: About
-    url: /about/
     weight: 5
-  - name: Buy Now
-    url: https://www.zerostatic.io/theme/jekyll-advance/
-    weight: 6
 footer_primary:
-  - name: Home
-    url: /
-    weight: 1
-  - name: Services
-    url: /services/
+  - name: Standard
+    url: /standard/
     weight: 2
-  - name: Projects
-    url: /projects/
+  - name: Data
+    url: /data/
     weight: 3
-  - name: Team
-    url: /team/
+  - name: Tools
+    url: /tools/
     weight: 4
 footer_secondary:
   - name: Blog
@@ -69,9 +57,6 @@ footer_tertiary:
   - name: Terms and Conditions
     url: /terms-and-conditions/
     weight: 2
-  - name: Buy Now
-    url: https://www.zerostatic.io/theme/jekyll-advance/
-    weight: 3
 bottom:
   - name: Privacy Policy
     url: https://www.gfdrr.org/en/privacy-policy

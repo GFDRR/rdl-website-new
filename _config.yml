@@ -124,20 +124,14 @@ logo:
   logo_image_mobile: assets/images/logo/logo-mobile.png
   logo_image_invert: assets/images/logo/logo-invert.png
   logo_image_invert_mobile: assets/images/logo/logo-invert-mobile.png
-  logo_image_desktop_height: "32px"
+  logo_image_desktop_height: "40px"
   logo_image_desktop_width: ""
-  logo_image_mobile_height: "30px"
+  logo_image_mobile_height: "40px"
   logo_image_mobile_width: ""
-  show_logo_image_on_mobile: false
+  show_logo_image_on_mobile: true
   show_logo_image_on_desktop: true
   show_logo_text_on_mobile: false
   show_logo_text_on_desktop: false
-
-seo:
-  meta_opengraph_type: "website"
-  meta_twitter_card: "summary"
-  meta_twitter_site: "@zerostaticio"
-  meta_twitter_creator: "@zerostaticio"
 
 header: 
   fixed: false
@@ -155,7 +149,7 @@ disqus:
   shortname: "" # Your disqus shortcode. leave this blank to disable comments globally
 
 mailchimp:
-  form_action_url: https://zerostatic.us13.list-manage.com/subscribe/post?u=675276692aebec1c007f8156d&amp;id=3e3da720c2
+  form_action_url: 
 
 contact_form: 
   use_netlify_form: true
@@ -176,8 +170,8 @@ footer:
   enable_menu_footer_primary: true
   enable_menu_footer_secondary: true
   enable_menu_footer_tertiary: true
-  footer_primary_menu_title: "Product"
-  footer_secondary_menu_title: "Company"
+  footer_primary_menu_title: "Open"
+  footer_secondary_menu_title: "Project"
   footer_tertiary_menu_title: "Other"
 
 bottom:

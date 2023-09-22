@@ -1,14 +1,13 @@
 ---
 layout: basic
-title: "Standard"
+title: "Data"
 date: 2018-11-28T15:15:34+10:00
-header_transparent: true
-permalink: "/about/"
-description: "Business plan hackathon handshake responsive web design."
-image: "/assets/images/gen/content/content-5.webp"
+header_transparent: false
+permalink: "/data/"
+description: "data"
 
 hero:
-  enabled: true
+  enabled: false
   heading: "Risk data is for everyone"
   sub_heading: "Open data, standard, and software to act on disaster and climate risk"
   text_color: "#FFFFFF"
