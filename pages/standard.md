@@ -3,9 +3,9 @@ header_transparent: true
 background-color: var(--color-base-bg);
 layout: basic
 permalink: /standard/
+thumbnail: /assets/images/uploads/screenshot-from-2023-09-23-14-14-14.png
 title: Risk Data Library Standard
 date: 2018-11-28T15:15:34+10:00
-thumbnail: /assets/images/uploads/screenshot-from-2023-09-23-14-14-14.png
 hero:
   background_gradient: false
   enabled: true
@@ -34,8 +34,6 @@ description: An open metadata standard for describing risk datasets used in
 ---
 # A new open data standard for disaster risk information
 
-A team at the Global Facility for Disaster Reduction and Recovery (GFDRR) has been coordinating research and development that led to the concept of the Risk Data Library, a data toolkit to manage online collections of risk data. At the heart of that effort is the Risk Data Library Standard (RDLS).
-
 The RDLS is essentially an open data standard for describing disaster risk information such as hazard, exposure, vulnerability, and loss datasets used in climate and disaster risk assessments. It also provides guidance on how to format and publish risk data itself. 
 
 The standard can handle multiple types of disaster and climate risk studies, either monetary or non-monetary, using historical disaster events or probabilistic analysis. It is also designed to support different types of exposure and vulnerability functions for buildings infrastructure, people and natural assets.
@@ -50,8 +48,6 @@ In practice, the value of the RDLS will depend on the number of users who adopt 
 * Software developers may use the RDLS to develop specific risk data tools, for instance to help with the generation of localized vulnerability indicators for buildings or population. 
 
 In the end, the real benefit of the RDLS will reside in the number of people who did not suffer from a disaster because someone, somewhere, was able to take a closer look at the data.
-
-An initial version was developed as a database schema with principal contributions from the Global Earthquake Model (GEM) Foundation, UCL Epicentre, and the British Geological Survey (BGS).  Since 2022, a grant from the Swiss Re Foundation has been supporting the development and promotion of the schema as an open data standard.
 
 ## Standard governance
 
