@@ -5,7 +5,7 @@ layout: basic
 permalink: /standard/
 title: Risk Data Library Standard
 date: 2018-11-28T15:15:34+10:00
-thumbnail: /images/uploads/screenshot-from-2023-09-23-14-14-14.png
+thumbnail: /assets/images/uploads/screenshot-from-2023-09-23-14-14-14.png
 hero:
   background_gradient: false
   enabled: true

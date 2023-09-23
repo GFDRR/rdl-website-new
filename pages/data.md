@@ -4,7 +4,7 @@ layout: basic
 permalink: /data/
 title: Data
 date: 2018-11-28T15:15:34+10:00
-thumbnail: /images/uploads/screenshot-from-2023-09-23-14-14-14.png
+
 hero:
   background_gradient: false
   enabled: true
@@ -36,4 +36,4 @@ The [Risk Data Library collection](https://datacatalog.worldbank.org/search/coll
 
 
 
-![](/images/uploads/screenshot-from-2023-09-23-14-33-07.png)
+![](/assets/images/uploads/screenshot-from-2023-09-23-14-33-07.png)
