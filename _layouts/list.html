@@ -46,6 +46,16 @@ body_classes: page-list
   </div>
 {% endif %}
 
+{% assign cards = site[page.grid.collection] | sort: 'date' | reverse %}
+{% assign limit = page.grid.limit | default: nil %}
+{% assign sort_by = page.grid.sort_by | default: 'date' %}
+{% assign columns =  page.grid.columns | default: 3 %}
+{% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
+{% if sort_by == 'weight' %}
+  {% assign cards = cards | sort: 'weight' %}
+{% endif %}
+{% assign card_type = page.grid.collection %}
+
 {% if cards.size > 0 %}
 <div class="section">
   <div class="container">
