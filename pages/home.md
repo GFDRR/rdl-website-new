@@ -91,5 +91,5 @@ posts:
   view_more_button_text: "View All Posts"
   view_more_button_link: "/blog"
   prevent_click: false
----
+
 ---

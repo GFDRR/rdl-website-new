@@ -21,9 +21,6 @@ main:
   - name: Data
     url: /data/
     weight: 2
-  - name: Resources
-    url: /resources/
-    weight: 3
   - name: Fellows
     url: /fellows/
     weight: 4
@@ -33,29 +30,23 @@ main:
 footer_primary:
   - name: Standard
     url: /standard/
-    weight: 2
+    weight: 1
   - name: Data
     url: /data/
-    weight: 3
-  - name: Tools
-    url: /tools/
-    weight: 4
+    weight: 2
 footer_secondary:
-  - name: Blog
-    url: /blog/
-    weight: 1
   - name: About
     url: /about/
     weight: 2
-  - name: Contact
-    url: /contact/
-    weight: 3
+  - name: Team
+    url: /team/
+    weight: 1
 footer_tertiary:
   - name: Privacy Policy
-    url: /privacy-policy/
+    url: https://www.gfdrr.org/en/privacy-policy
     weight: 1
   - name: Terms and Conditions
-    url: /terms-and-conditions/
+    url: https://www.gfdrr.org/en/terms-of-use
     weight: 2
 bottom:
   - name: Privacy Policy
