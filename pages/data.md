@@ -4,7 +4,6 @@ layout: basic
 permalink: /data/
 title: Data
 date: 2018-11-28T15:15:34+10:00
-
 hero:
   background_gradient: false
   enabled: true
@@ -34,6 +33,4 @@ description: data
 
 The [Risk Data Library collection](https://datacatalog.worldbank.org/search/collections/rdl) from the World Bank data catalog contains data used for or produced by disaster and climate risk assessments and curated by the Global Facility for Disaster Reduction and Recovery (GFDRR).
 
-
-
-![](/assets/images/uploads/screenshot-from-2023-09-23-14-33-07.png)
+![Development Data Hub](/assets/images/uploads/screenshot-from-2023-09-23-14-33-07.png "Development Data Hub")
