@@ -1,20 +1,20 @@
 ---
 layout: basic
-title: "Project"
+title: "Learn more"
 date: 2018-11-28T15:15:34+10:00
-header_transparent: false
+header_transparent: true
 permalink: "/project/"
-description: "Project"
+description: ""
 image: "/assets/images/gen/content/content-5.webp"
 
 hero:
-  enabled: false
-  heading: "Risk data is for everyone"
-  sub_heading: "Open data, standard, and software to act on disaster and climate risk"
+  enabled: true
+  heading: "Learn more"
+  sub_heading: "Why a Risk Data Library"
   text_color: "#FFFFFF"
   background_color: "#0b3860"
   background_gradient: false
-  background_image: "/assets/images/gen/home/home-1.webp"
+  background_image: ""
   background_image_blend_mode: multiply # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: false

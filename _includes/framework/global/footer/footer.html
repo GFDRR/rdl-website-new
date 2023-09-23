@@ -9,18 +9,14 @@
             {% endif %}
 
             {% if site.footer.footer_description and site.footer.footer_description != "" %}
-              <p>{{ site.footer.footer_description }}</p>
-            {% endif %}
-          </div>
+              <p>An initiative of the Global Facility for Disaster Reduction and Recovery (GFDRR)</p>
+                             <img src='https://www.gfdrr.org/themes/custom/gfdrr/images/GFDRR_Primary%20Logo_White.svg?v=3c' height='auto' alt='Logo'>
+                             <p>Sponsored by</p>
+                             <img src='https://www.swissrefoundation.org/.resources/swissre-foundation/webresources/img/logos/SR_Logo_Foundation_white.svg' height='60px' alt='Logo' style="margin-top: 12px;">
 
-          {% if site.footer.enable_social_media_icons and site.data.social %}
-              {% include framework/blocks/components/social.html %}
-          {% endif %}
-          
-            <div>
-               <img src="https://www.gfdrr.org/themes/custom/gfdrr/images/GFDRR_Primary%20Logo_White.svg?v=3" height="auto" alt="Logo">
-          </div>
-        </div>
+            {% endif %}
+                  </div>
+                  </div>
 
         <div class="col-12 col-md-8 mt-gutter mt-md-0">
           <div class="row justify-content-end">
@@ -68,15 +64,5 @@
         </div>
       
     </div>
-    {% if site.footer.enable_contact_details %}
-    <div class="row justify-content-end mt-2">
-      <div class="col-12 col-md-4">
-        <h3>Contact Us</h3>
-        {% include framework/blocks/components/contact.html
-          contact=site.data.contact
-        %}
-      </div>
-    </div>
-    {% endif %}
   </div>
 </div>

@@ -1,19 +1,20 @@
 ---
 layout: basic
-title: "Standard"
+title: "Risk Data Library Standard"
 date: 2018-11-28T15:15:34+10:00
-header_transparent: false
+header_transparent: true
+background-color: "var(--color-base-bg);"
 permalink: "/standard/"
-description: "standard"
+description: "An open metadata standard for describing risk datasets used in climate and disaster risk assessments."
 
 hero:
-  enabled: false
-  heading: "Risk data is for everyone"
-  sub_heading: "Open data, standard, and software to act on disaster and climate risk"
+  enabled: true
+  heading: "Risk Data Library Standard"
+  sub_heading: "An open data standard for describing risk datasets used in climate and disaster risk assessments"
   text_color: "#FFFFFF"
   background_color: "#0b3860"
   background_gradient: false
-  background_image: "/assets/images/gen/home/home-1.webp"
+  background_image: ""
   background_image_blend_mode: multiply # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: false

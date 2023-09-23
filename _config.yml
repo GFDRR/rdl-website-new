@@ -164,7 +164,7 @@ menu:
 footer:
   enable_footer: true # show/hide the entire footer
   footer_title: "Risk Data Library"
-  footer_description: " An initiative of the Global Facility for Disaster Reduction and Recovery (GFDRR)."
+  footer_description: "An initiative of the Global Facility for Disaster Reduction and Recovery (GFDRR)"
   enable_social_media_icons: false
   enable_contact_details: true
   enable_menu_footer_primary: true

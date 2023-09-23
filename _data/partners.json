@@ -1,32 +1,33 @@
 [
   {
-    "title": "Jekyll",
-    "image": "assets/images/partners/jekyll-mark.png",
-    "url": "https://www.zerostatic.io"
+    "title": "Global Earthquake Model Foundation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Global_Earthquake_Model_Logo.png/640px-Global_Earthquake_Model_Logo.png",
+    "url": "https://www.globalquakemodel.org/gem"
   },
   {
-    "title": "Netlify",
-    "image": "assets/images/partners/netlify.png",
-    "url": "https://www.zerostatic.io"
+    "title": "UCL Epicenter",
+    "image": "https://pbs.twimg.com/profile_images/1086715580999192577/AUgAOZ5d_400x400.jpg",
+    "url": "https://www.ucl.ac.uk/epicentre/"
   },
   {
-    "title": "Scss",
-    "image": "assets/images/partners/sass.png",
-    "url": "https://www.zerostatic.io"
+    "title": "OASISlmf Open Data Standards",
+    "image": "https://raw.githubusercontent.com/OasisLMF/ODS_OpenExposureData/develop/images/Oasis_LOGO.png",
+    "url": "https://oasislmf.org/open-data-standards"
   },
   {
-    "title": "Mailchimp",
-    "image": "assets/images/partners/mailchimp.svg",
-    "url": "https://www.zerostatic.io"
+    "title": "Insurance Development Forum",
+    "image": "https://mma.prnewswire.com/media/739188/Insurance_Development_Forum_Logo.jpg",
+    "url": "https://www.insdevforum.org/"
   },
   {
-    "title": "Github",
-    "image": "assets/images/partners/github.svg",
-    "url": "https://www.zerostatic.io"
+    "title": "Swiss Re",
+    "image": "https://1000logos.net/wp-content/uploads/2020/09/Swiss-Re-Logo.png",
+    "url": "https://www.swissre.com/"
   },
   {
-    "title": "Algolia",
-    "image": "assets/images/partners/algolia.svg",
-    "url": "https://www.zerostatic.io"
-  }
+    "title": "JBA Risk Management",
+    "image": "https://raw.githubusercontent.com/OasisLMF/ODS_OpenExposureData/develop/images/JBA_logo.jpeg",
+    "url": "https://www.jbarisk.com/"
+  },
 ]
+

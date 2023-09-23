@@ -2,18 +2,18 @@
 layout: basic
 title: "Data"
 date: 2018-11-28T15:15:34+10:00
-header_transparent: false
+header_transparent: true
 permalink: "/data/"
 description: "data"
 
 hero:
-  enabled: false
-  heading: "Risk data is for everyone"
-  sub_heading: "Open data, standard, and software to act on disaster and climate risk"
+  enabled: true
+  heading: "Find and use risk data"
+  sub_heading: "The Risk Data Library makes it easier to find and use disaster and climate risk data from different data portals"
   text_color: "#FFFFFF"
   background_color: "#0b3860"
   background_gradient: false
-  background_image: "/assets/images/gen/home/home-1.webp"
+  background_image: ""
   background_image_blend_mode: multiply # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: false
