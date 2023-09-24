@@ -78,7 +78,7 @@ outro:
 
 partners:
   enabled: true
-  limit: 5
+  limit: 6
   sort: "weight" # 'date'
 
 posts:
