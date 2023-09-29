@@ -1,70 +1,48 @@
 ---
-layout: basic
-title: "Fellows"
-date: 2018-11-28T15:15:34+10:00
 header_transparent: true
-background-color: "var(--color-base-bg);"
-permalink: "/fellows/"
-description: ""
-
+background-color: var(--color-base-bg);
+layout: basic
+permalink: /fellows/
+title: Fellows
+date: 2023-09-29T14:49:57.584Z
 hero:
-  enabled: true
-  heading: "The Risk Data Fellows"
-  sub_heading: "Fellows from vulnerable countries are recruited to support World Bank disaster and climate risk data projects and learn how to use the Risk Data Library."
-  text_color: "#FFFFFF"
-  background_color: "#0b3860"
   background_gradient: false
-  background_image: ""
-  background_image_blend_mode: multiply # "overlay", "multiply", "screen"
-  fullscreen_mobile: true
-  fullscreen_desktop: false
-  height: "500px"
+  enabled: true
   buttons:
     enabled: false
     list:
-      - text: "Documentation"
-        url: "https://docs.riskdatalibrary.org/en/latest/"
+      - text: Documentation
+        url: https://docs.riskdatalibrary.org/en/latest/
         external: true
         fa_icon: false
         size: large
         outline: true
-        style: "light"
+        style: light
+  heading: The Risk Data Fellows
+  sub_heading: Fellows from vulnerable countries are recruited to support World
+    Bank disaster and climate risk data projects and learn how to use the Risk
+    Data Library.
+  background_image_blend_mode: multiply
+  fullscreen_mobile: true
+  height: 500px
+  background_image: ""
+  text_color: "#FFFFFF"
+  background_color: "#0b3860"
+  fullscreen_desktop: false
+description: ""
 ---
+# **Disaster and Climate Risk Data Fellows**
 
-# Creating Modern Websites
+The fellowship program offers a 6-month placement for climate and disaster risk professionals (data scientists, geospatial analysts, and similar) from selected climate-vulnerable countries to work with the Risk Data Library Standard to access, create and communicate climate risk knowledge with their communities.
 
-Web design encompasses many different skills and disciplines in the production and maintenance of websites.
+During this time, fellows work part-time as World Bank Short-Term Consultants. Through a dedicated program, they learn how to apply and use the Risk Data Library Standard tools and standards in support of World Bank projects and for the benefit of their institution and communities.
 
-Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all. Web design partially overlaps web engineering in the broader scope of web development.
+The expected outcomes are increased availability, dissemination, and use of climate risk knowledge in climate-vulnerable and fast-growing cities and countries. The activities complement and leverage climate and disaster risk analysis undertaken in those countries by the World Bank under the new Climate Change Action Plan and through Disaster Risk Management operations.
 
-## What is Web Design?
+Disaster and Climate Risk Data Fellows are selected based on their data skills, climate and disaster risk skills, and willingness to support their communities. They receive training and hands-on support throughout the project to become Risk Data Library Standard experts and contribute to improving climate risk analysis using the Risk Data Library.
 
-User experience is about how a user interacts with, and experiences, a particular product, system or service. As a UX designer, you should consider the Why, What and How of product use.
+The fellowship program is managed by a Digital Earth team at GFDRR and supported by a grant from the Swiss Re Foundation.
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/content-1.webp" title="Steve Francia" caption="Designing in Figma" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
+## The 2023 Risk Data Fellows
 
-## Front-end Development
-
-The What addresses the things people can do with a product—its functionality. Finally, the How relates to the design of functionality in an accessible and aesthetically pleasant way. UX designers start with the Why before determining the What and then, finally, the How in order to create products that users can form meaningful experiences with. In software designs, you will need to ensure the product’s “substance” comes through an existing device and offers a seamless, fluid experience.
-
-> As a UX designer, you should consider the Why, What and How of product use.
-
-Web designers are expected to have an awareness of usability and if their role involves creating markup then they are also expected to be up to date with web accessibility guidelines.
-
-## Design Systems
-
-A Design System is a set of interconnected patterns and shared practices coherently organized to aid in digital product design and development of products such as apps or websites.
-
-{% include framework/shortcodes/youtube.html id='2M6dJ2Uynhg' %}
-
-## Process
-
-There are two primary jobs involved in creating a website: the web designer and web developer, who often work closely together on a website. The web designers are responsible for the visual aspect, which includes the layout, coloring and typography of a web page.
-
-- User experience research
-- Visual design and illustration
-- Programming and coding
-
-![Design In Figma](/assets/images/gen/content/content-2.webp)
-
-Web designers will also have a working knowledge of markup languages such as HTML and CSS, although the extent of their knowledge will differ from one web designer to another.
+For its first edition, the Fellows were recruited from the following countries: Bangladesh, Democratic Republic of the Congo, India, Indonesia, Philippines, and South Africa.
