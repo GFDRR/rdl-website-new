@@ -6,6 +6,11 @@ permalink: /fellows/
 title: Fellows
 date: 2023-09-29T14:49:57.584Z
 hero:
+  enabled: true
+  heading: "The Risk Data Fellows"
+  sub_heading: "Fellows from vulnerable countries are recruited to support World Bank disaster and climate risk data projects and learn how to use the Risk Data Library"
+  text_color: "#FFFFFF"
+  background_color: "#0b3860"
   background_gradient: false
   enabled: true
   buttons:
