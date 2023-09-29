@@ -1,16 +1,13 @@
 ---
 authors: null
 layout: post
-thumbnail: /assets/images/gen/blog/blog-6-thumbnail.webp
+thumbnail: /assets/images/uploads/gfdrr.webp
 title: "Risk Data Library Standard: making it easier to work with disaster and
   climate risk data"
-date: 2019-12-02T05:00:00.000Z
-image: /assets/images/gen/blog/blog-6.webp
+date: 2023-09-02T05:00:00.000Z
+image: /assets/images/uploads/gfdrr.webp
 categories:
-  - Hosting
-  - Development
-description: Hosting your website as a static site will improve performance and
-  improve security.
+description: GFDRR releases an open data standard to make it easier to publish, access, share, and use quality disaster and climate risk data.
 ---
 [The Global Facility for Disaster Reduction and Recovery (GFDRR)](https://www.gfdrr.org/en) releases the [Risk Data Library Standard (RDLS)](https://docs.riskdatalibrary.org/), an open data standard to make it easier to publish, access, share, and use quality disaster and climate risk data.
 

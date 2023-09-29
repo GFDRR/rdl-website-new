@@ -1,10 +1,10 @@
 main:
-  - name: Project 
-    url: /project/
+  - name: Data
+    url: /data/
     weight: 1
   - name: Standard
     url: /standard/
-    weight: 1
+    weight: 2
     child:
       - name: Documentation
         url: https://docs.riskdatalibrary.org/en/latest/
@@ -12,28 +12,35 @@ main:
       - name: Repository
         url: https://github.com/GFDRR/rdl-standard
         weight: 2
-      - name: Conversion tool
+      - name: Conversion & validation tool
         url: https://metadata.riskdatalibrary.org/
         weight: 3
       - name: Steering Committee
         url: https://github.com/GFDRR/rdl-standard/tree/0.2-dev/SteeringCommittee
         weight: 4
-  - name: Data
-    url: /data/
-    weight: 2
+  - name: Tools
+    url: /tools/
+    weight: 3
+    child:
   - name: Fellows
     url: /fellows/
     weight: 4
   - name: Blog
     url: /blog/
     weight: 5
-footer_primary:
-  - name: Standard
-    url: /standard/
+  - name: Learn more 
+    url: /project/
     weight: 1
+footer_primary:
   - name: Data
     url: /data/
+    weight: 1
+  - name: Standard
+    url: /standard/
     weight: 2
+  - name: Tools
+    url: /tools/
+    weight: 3
 footer_secondary:
   - name: About
     url: /about/
