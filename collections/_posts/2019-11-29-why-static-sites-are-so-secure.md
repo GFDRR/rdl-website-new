@@ -1,64 +1,70 @@
 ---
+authors: null
 layout: post
-title: "Security first with static websites"
-date: 2019-11-29
-authors: 
-categories: ["Hosting", "Development"]
-description: "Hosting your website as a static site will improve performance and improve security."
-thumbnail: "/assets/images/gen/blog/blog-6-thumbnail.webp"
-image: "/assets/images/gen/blog/blog-6.webp"
+thumbnail: /assets/images/gen/blog/blog-6-thumbnail.webp
+title: "Risk Data Library Standard: making it easier to work with disaster and
+  climate risk data"
+date: 2019-12-02T05:00:00.000Z
+image: /assets/images/gen/blog/blog-6.webp
+categories:
+  - Hosting
+  - Development
+description: Hosting your website as a static site will improve performance and
+  improve security.
 ---
+[The Global Facility for Disaster Reduction and Recovery (GFDRR)](https://www.gfdrr.org/en) releases the [Risk Data Library Standard (RDLS)](https://docs.riskdatalibrary.org/), an open data standard to make it easier to publish, access, share, and use quality disaster and climate risk data.
 
-Markdown is a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+![](assets/images/uploads/gfdrr.webp "The RDLS documentation provides guidance on how to package risk datasets and comes with a metadata conversion and validation tool to facilitate its adoption.")
 
-Since the initial description of Markdown contained ambiguities and unanswered questions, the implementations that appeared over the years have subtle differences and many come with syntax extensions.
+From a data point of view, achieving a world free of poverty on a livable planet can mean searching for the best flood hazard map to be combined with the right poverty indicators. Yet, the production of and access to disaster risk information, especially in the most vulnerable and poorest countries, remains a challenge. There is a need for a common language that would facilitate better collaboration on and with risk data.
 
-## History
+# Solving the puzzle of risk data
 
-John Gruber created the [Markdown](#) language in 2004 in collaboration with Aaron Swartz on the syntax, with the goal of enabling people "to write using an easy-to-read and easy-to-write plain text format". Its key design goal is readability. That the language be readable as-is.
+In 2022 alone, natural hazards caused [$275 billion in economic losses](https://www.swissre.com/institute/research/sigma-research/sigma-2023-01.html) according to Swiss Re company. Yet, that type of figure only scratches the surface of how disasters impact the poorest communities. Beyond financial losses and damages, disaster risk assessments must also incorporate socio-economic and non-economic data to better assist the most vulnerable.
 
-> "Markdown is a lightweight markup language with plain-text-formatting syntax"
+Traditionally, the insurance industry has been at the forefront of producing disaster and climate risk figures. By combining hazard scenarios with population and infrastructure data through catastrophe models, insurance companies would provide estimates of financial losses to their clients. But in the last decade, humanitarian and development organizations such as [the World Bank](https://ieg.worldbankgroup.org/evaluations/reducing-disaster-risks-natural-hazards) have increasingly invested in disaster risk assessments, too.
 
-To this end, its main inspiration is the existing conventions for marking up plain text in email, though it also draws from earlier markup languages, notably setext, Textile, and reStructuredText.
+The data required for assessing disaster risk can generally be divided into three categories: hazard, exposure, and vulnerability. To date there is no widely accepted approach for storing, sharing, and discovering such information. In practice, this situation introduces a significant amount of friction in efforts to quantify and manage disaster risk.
 
-## Markdown Flavours
+# A new open data standard
 
-From 2012, a group of people including Jeff Atwood and John MacFarlane launched what Atwood characterized as a standardization effort. A community website now aims to "document various tools and resources available to document authors and developers, as well as implementors of the various markdown implementations".
+Aware of the issue, a team at [the Global Facility for Disaster Reduction and Recovery (GFDRR)](https://www.gfdrr.org/en) has been coordinating research and development that led to the concept of [the Risk Data Library](https://riskdatalibrary.org/), a data toolkit to manage online collections of risk data. At the heart of that effort is [the Risk Data Library Standard (RDLS)](https://docs.riskdatalibrary.org/index.html).
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/content-1.webp" title="There are many popular text editors for Markdown" caption="VSCode Editor" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
+The RDLS is essentially an open data standard for describing disaster risk information such as hazard, exposure, vulnerability, and loss datasets used in climate and disaster risk assessments. It also provides [guidance ](https://docs.riskdatalibrary.org/en/latest/)on how to format and publish risk data itself and comes with [conversion and validation tools](https://metadata.riskdatalibrary.org/) to facilitate its adoption.
 
-### GitHub Flavored Markdown (GFM)
+The standard can handle multiple types of disaster and climate risk studies, either monetary or non-monetary, using historical disaster events or probabilistic analysis. It is also designed to support different types of exposure and vulnerability functions for buildings infrastructure, people, and natural assets.
 
-In 2017, GitHub released a formal specification of their GitHub Flavored Markdown (GFM) that is based on CommonMark. It follows the CommonMark specification exactly except for tables, strikethrough, autolinks and task lists, which the GitHub spec has added as extensions. GitHub also changed the parser used on their sites accordingly, which required that some documents be changed. For instance, GFM now requires that the hash symbol that creates a heading be separated from the heading text by a space character.he user to create their own.
+# Practical benefits
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/content-2.webp" title="There are many popular text editors for Markdown" caption="VSCode Editor" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
+In practice, the value of the RDLS will depend on the number of users who adopt it. Thankfully, it can respond to many different needs:
 
-### Markdown Extra
+* Students and academics can use the RDLS to improve discoverability and reproducibility of their research in the field and make it easier to publish their results.
+* Risk modelers can adopt the RDLS to compare and adapt risk models produced in high-income countries to make them better fit with lower-income context.
+* Policy analysts can learn from the RDLS which disaster and climate risk studies have been conducted for a given location and find out about the hazard information gaps in the area.
+* Software developers may use the RDLS to develop specific risk data tools, for instance, to help with the generation of localized vulnerability indicators for buildings or population.
 
-Markdown Extra is a lightweight markup language based on Markdown implemented in PHP (originally), [Python](#) and [Ruby](#). It adds features not available with plain Markdown syntax. Markdown Extra is supported in some content management systems such as, for example, Drupal.
+In the end, the real benefit of the RDLS will reside in the number of people who did not suffer from a disaster because someone, somewhere, was able to take a closer look at the data.
 
-### MDX
+A collection of disaster risk assessment data compliant with the Risk Data Library Standard available on the Development Data Hub/Data Catalog of the World Bank.
 
-At the same time, a number of ambiguities in the informal specification had attracted attention.These issues spurred the creation of tools such as Babelmark to compare the output of various implementations, and an effort by some developers of Markdown parsers for standardisation. However, Gruber has argued that complete standardization would be a mistake:
+![](assets/images/uploads/screenshot-from-2023-09-23-14-33-07.png "A collection of disaster risk assessment data compliant with the Risk Data Library Standard available on the Development Data Hub/Data Catalog of the World Bank.")
 
-```js
-$(window).scroll(function () {
-  // this will work when your window scrolled.
-  var scroll = $(window).scrollTop();
-  if (scroll > 100) {
-    $(".header").addClass("header-scrolled");
-  } else {
-    $(".header").removeClass("header-scrolled");
-  }
-});
-```
+# Who is behind the RDLS?
 
-Gruber avoided using curly braces in Markdown to unofficially reserve them for implementation-specific extensions. Markdown Extra adds the following features to Markdown:
+The concept of the Risk Data Library initially emerged from a consultation led by GFDRR and the [United Kingdom’s Department for International Development (DFID)](https://www.gov.uk/government/organisations/department-for-international-development) that resulted in the publication of [the report “Solving the Puzzle.”](https://www.gfdrr.org/en/solving-puzzle-innovating-reduce-risk) 
 
-- markdown markup inside HTML blocks
-- elements with id/class attribute
-- fenced code blocks that span multiple lines of code
-- tables
-- definition lists
-- footnotes
-- abbreviations
+An initial version was developed as a database schema with principal contributions from the Global Earthquake Model (GEM) Foundation, UCL Epicentre, and [the British Geological Survey (BGS)](https://www.bgs.ac.uk/). Since 2022, a grant from the Swiss Re Foundation has been supporting the development and promotion of the schema as an open data standard.
+
+The RDLS is currently overseen by [a steering committee](https://github.com/GFDRR/rdl-standard/tree/dev/SteeringCommittee) of disaster risk experts. Moving forward, it will continue to be developed and maintained by [the Digital Earth team](https://www.gfdrr.org/en/digitalearthpartnership) at GFDRR.
+
+# Early adopters
+
+Within the World Bank, the Risk Data Library has already gained traction among staff and consultants, with more than 100 datasets now available in [the dedicated and growing collection of the World Bank's data catalog](https://datacatalog.worldbank.org/search/collections/rdl). It is promoted for any new flood risk assessments and used by Risk Data Fellows recruited from climate-vulnerable countries.
+
+Beyond the World Bank, initial developers from [the Global Earthquake Model Foundation](https://www.globalquakemodel.org/gem) and [UCL Epicentre](https://www.ucl.ac.uk/epicentre/epicentre-people) are actively working on specific components of the Risk Data Library, including exposure and vulnerability schemas. There is also work underway to use RDLS metadata as part of [the Open Data Standards Initiative](https://oasislmf.org/open-data-standards#:~:text=What%20is%20ODS%3F,challenges%20in%20the%20insurance%20market.) curated by the OASIS Loss Modelling Framework.
+
+We invite you to be an early adopter of the Risk Data Library Standard, too, and encourage your contributions to our new common language on risk data.
+
+
+
+For more information on how to adopt the Risk Data Library Standard or provide feedback, please visit <https://docs.riskdatalibrary.org/> or email contact@riskdatalibrary.org.
