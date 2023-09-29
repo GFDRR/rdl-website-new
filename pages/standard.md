@@ -59,6 +59,6 @@ An initial version was developed as a database schema with principal contributio
 
 Since 2022, a grant from the [Swiss Re Foundation ](https://www.swissrefoundation.org/)has been supporting the development and promotion of the schema as an open data standard. The [Open Data Services cooperative](https://opendataservices.coop/) is providing technical support.
 
-The RDLS is currently overseen by the RDLS Steering Committee composed of disaster risk experts from the disaster risk community. The development of the standard follows open principles and community contributions are welcome and encouraged. 
+The RDLS is currently overseen by the [RDLS Steering Committee ](https://github.com/GFDRR/rdl-standard/tree/0.2-dev/SteeringCommittee)composed of disaster risk experts from the disaster risk community. The development of the standard follows open principles and community contributions are welcome and encouraged. 
 
 For more information on how to contribute and adopt the Risk Data Library Standard, please see the [RDLS Documentation](https://docs.riskdatalibrary.org/) site.
