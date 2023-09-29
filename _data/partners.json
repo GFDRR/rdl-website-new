@@ -29,5 +29,10 @@
     "image": "https://raw.githubusercontent.com/OasisLMF/ODS_OpenExposureData/develop/images/JBA_logo.jpeg",
     "url": "https://www.jbarisk.com/"
   },
+  {
+    "title": "IFRC",
+    "image": "/assets/images/logo/ifrc.png",
+    "url": "https://www.ifrc.org/"
+  },
 ]
 

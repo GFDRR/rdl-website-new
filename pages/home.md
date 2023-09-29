@@ -6,11 +6,10 @@ description: "Risk Data Library"
 header_transparent: true
 meta_title: Risk Data Library
 
-
 hero:
   enabled: true
   heading: "Risk data is for everyone"
-  sub_heading: "Open data, standard, and tools to act on disaster and climate risk"
+  sub_heading: "Open data, standard, and tools to act on disaster and climate risk in the most vulnerable countries"
   text_color: "#FFFFFF"
   background_color: "#0b3860"
   background_gradient: false
@@ -30,17 +29,34 @@ hero:
         outline: true
         style: "light"  
 
-intro:
+intro1:
   enabled: true
   align: left
   image: "/assets/images/gen/content/content-2-thumbnail.webp"
-  heading: "Introducing the Risk Data Library Standard"
-  sub_heading: "Access to and production of disaster and climate risk information remain a challenge. There is a need for a common language to work better together with risk data."
+  heading: "Introducing the Risk Data Library Standard (RDLS)"
+  sub_heading: "The RDLS is an open data standard that provides a common description of the data used and produced in risk assessments, including hazard, exposure, vulnerability, as well as loss & damage data."
   buttons:
     enabled: true
     list:
       - text: "Get started"
         url: "https://docs.riskdatalibrary.org/en/latest/"
+        external: true
+        fa_icon: false
+        size: large
+        outline: true
+        style: "light"
+
+intro2:
+  enabled: true
+  align: right
+  image: "/assets/images/uploads/screenshot-from-2023-09-23-14-33-07.png"
+  heading: "Find and share risk data"
+  sub_heading: "Discover the early adopters of the RDLS and learn how to package and publish your own risk data and metadata according to the standard"
+  buttons:
+    enabled: true
+    list:
+      - text: "Find risk datasets"
+        url: "/data/"
         external: true
         fa_icon: false
         size: large
@@ -61,34 +77,34 @@ outro:
   enabled: true
   align: center
   image: false
-  heading: Our partners
-  sub_heading: "Members of the Risk Data Library Standard Steering Committee"
+  heading: Solving the puzzle of disaster risk information
+  sub_heading: "Learn more about the Risk Data Library project and find relevant resources"
   features:
     enabled: false
     list:
       - text: "Free Quote"
         fa_icon: "fas fa-envelope-open-text"
   buttons:
-    enabled: false
+    enabled: true
     list:
-      - text: "See who is publishing risk data"
+      - text: "Learn more"
         url: "https://docs.riskdatalibrary.org/en/latest/"
         external: false
         size: "large"
 
 partners:
   enabled: true
-  limit: 6
+  limit: 7
   sort: "weight" # 'date'
 
 posts:
   enabled: true
-  heading: "Latest Posts"
+  heading: "Latest News"
   sub_heading: ""
   limit: 3
   columns: 3
-  sort: "weight" # 'date'
-  view_more_button_text: "View All Posts"
+  sort: "date"
+  view_more_button_text: "View all blog posts"
   view_more_button_link: "/blog"
   prevent_click: false
 

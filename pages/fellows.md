@@ -26,7 +26,7 @@ hero:
   heading: The Risk Data Fellows
   sub_heading: Fellows from vulnerable countries are recruited to support World
     Bank disaster and climate risk data projects and learn how to use the Risk
-    Data Library.
+    Data Library
   background_image_blend_mode: multiply
   fullscreen_mobile: true
   height: 500px

@@ -31,22 +31,80 @@ body_classes: page-home
   </div>
 {% endif %}
 
-{% if page.intro.enabled %}
+{% if page.intro1.enabled %}
   <div class="section">
     <div class="container">
       {% include framework/blocks/sections/info.html
-      heading=page.intro.heading
-      sub_heading=page.intro.sub_heading
-      align=page.intro.align
-      features=page.intro.features
-      buttons=page.intro.buttons
-      image=page.intro.image
+      heading=page.intro1.heading
+      sub_heading=page.intro1.sub_heading
+      align=page.intro1.align
+      features=page.intro1.features
+      buttons=page.intro1.buttons
+      image=page.intro1.image
       %}
     </div>
   </div>
 {% endif %}
 
+{% if page.intro2.enabled %}
+  <div class="section">
+    <div class="container">
+      {% include framework/blocks/sections/info.html
+      heading=page.intro2.heading
+      sub_heading=page.intro2.sub_heading
+      align=page.intro2.align
+      features=page.intro2.features
+      buttons=page.intro2.buttons
+      image=page.intro2.image
+      %}
+    </div>
+  </div>
+{% endif %}
+
+{% if page.partners.enabled %}
+{% assign partners = site.data.partners %}
+{% assign partners_limit = page.partners.limit | default: 4 %}
+{% assign partners_sort = page.partners.sort | default: 'weight' %}
+{% if partners.size > 0 %}
+<div class="section">
+  <div class="container">
+    <div class="info">
+      <div class="row justify-content-center text-center info-">
+        <div class="col-12 col-md-8 ">
+          <div class="info-content">
+              <h2>Steering Committee</h2>    
+              <p class="mt-1 large mx-auto">The development of the Risk Data Library Standard is guided by a Steering Committee with members from the following organizations</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 ">
+        </div>
+      </div>
+    </div>
+    <div class="section pt-0 partners">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          {% for partner in partners limit: partners_limit %}
+          <div class="col-4 col-lg-2 text-center mb-1 mt-1">
+            <img src="{{ partner.image | relative_url }}" alt="{{ partner.title }}" />
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endif %}
+
 {% if page.posts.enabled %}
+{% assign cards = site.posts | sort: 'date' | reverse %}
+{% assign limit = page.posts.limit | default: 2 %}
+{% assign sort_by = page.posts.sort | default: 'date' %}
+{% assign columns =  page.posts.columns | default: 2 %}
+{% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
+{% if sort_by == 'weight' %}
+  {% assign cards = cards | sort: 'weight' %}
+{% endif %}
   <div class="section bg-base-bg-2">
     <div class="container">
       <div class="row">
@@ -86,108 +144,6 @@ body_classes: page-home
 </div>
 {% endif %}
 
-<div class="section bg-base-bg-2">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="grid-header grid-header-align-center">
-            <h2>Solving the puzzle of risk data</h2>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-4 mb-3 mt-0">
-          <div class="card card-service card-services  card-has-icon">
-            <div class="card-content">
-              <div class="card-icon">
-                <img alt="Web Development" width="50" height="50" src=" /assets/images/icons/icons8-source-code-100.png ">
-              </div>
-              <div class="card-title">
-                <h3><a href="/services/web-development/">Web Development</a></h3>
-              </div>
-              <div class="card-description">
-                <p>Our experienced software engineers develop websites and desktop applications</p>
-              </div>
-          </div>
-        </div>
-       </div>
-       <div class="col-12 col-md-4 col-lg-4 mb-3  ">
-        <div class="card card-service card-services  card-has-icon">
-            <div class="card-content">
-              <div class="card-icon">
-                <img alt="Web Development" width="50" height="50" src=" /assets/images/icons/icons8-source-code-100.png ">
-              </div>
-              <div class="card-title">
-                <h3><a href="/services/web-development/">Web Development</a></h3>
-              </div>
-              <div class="card-description">
-                <p>Our experienced software engineers develop websites and desktop applications</p>
-              </div>
-          </div>
-        </div>
-       </div>
-       <div class="col-12 col-md-4 col-lg-4 mb-3  ">
-        <div class="card card-service card-services  card-has-icon">
-            <div class="card-content">
-              <div class="card-icon">
-                <img alt="Web Development" width="50" height="50" src=" /assets/images/icons/icons8-source-code-100.png ">
-              </div>
-              <div class="card-title">
-                <h3><a href="/services/web-development/">Web Development</a></h3>
-              </div>
-              <div class="card-description">
-                <p>Our experienced software engineers develop websites and desktop applications</p>
-              </div>
-          </div>
-        </div>
-       </div>
-       <div class="col-12 col-md-4 col-lg-4 mb-3  ">
-        <div class="card card-service card-services  card-has-icon">
-            <div class="card-content">
-              <div class="card-icon">
-                <img alt="Web Development" width="50" height="50" src=" /assets/images/icons/icons8-source-code-100.png ">
-              </div>
-              <div class="card-title">
-                <h3><a href="/services/web-development/">Web Development</a></h3>
-              </div>
-              <div class="card-description">
-                <p>Our experienced software engineers develop websites and desktop applications</p>
-              </div>
-          </div>
-        </div>
-       </div>
-       <div class="col-12 col-md-4 col-lg-4 mb-3  ">
-        <div class="card card-service card-services  card-has-icon">
-            <div class="card-content">
-              <div class="card-icon">
-                <img alt="Web Development" width="50" height="50" src=" /assets/images/icons/icons8-source-code-100.png ">
-              </div>
-              <div class="card-title">
-                <h3><a href="/services/web-development/">Web Development</a></h3>
-              </div>
-              <div class="card-description">
-                <p>Our experienced software engineers develop websites and desktop applications</p>
-              </div>
-          </div>
-        </div>
-       </div>
-       <div class="col-12 col-md-4 col-lg-4 mb-3  ">
-        <div class="card card-service card-services  card-has-icon">
-            <div class="card-content">
-              <div class="card-icon">
-                <img alt="Web Development" width="50" height="50" src=" /assets/images/icons/icons8-source-code-100.png ">
-              </div>
-              <div class="card-title">
-                <h3><a href="/services/web-development/">Web Development</a></h3>
-              </div>
-              <div class="card-description">
-                <p>Our experienced software engineers develop websites and desktop applications</p>
-              </div>
-          </div>
-        </div>
-       </div>
-    </div>
-  </div>
-</div>
-
 {% if page.outro.enabled %}
 <div class="section">
   <div class="container">
@@ -201,23 +157,4 @@ body_classes: page-home
     %}
   </div>
 </div>
-{% endif %}
-
-{% if page.partners.enabled %}
-{% assign partners = site.data.partners %}
-{% assign partners_limit = page.partners.limit | default: 4 %}
-{% assign partners_sort = page.partners.sort | default: 'weight' %}
-{% if partners.size > 0 %}
-<div class="section pt-0 partners">
-  <div class="container">
-    <div class="row justify-content-center align-items-center">
-      {% for partner in partners limit: partners_limit %}
-      <div class="col-4 col-lg-2 text-center mb-1 mt-1">
-        <img src="{{ partner.image | relative_url }}" alt="{{ partner.title }}" />
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
-{% endif %}
 {% endif %}

@@ -17,9 +17,9 @@ hero:
         size: large
         outline: true
         style: light
-  heading: Find and use risk data
-  sub_heading: The Risk Data Library makes it easier to find and use disaster and
-    climate risk data from different data portals
+  heading: Find and share risk data
+  sub_heading: The Risk Data Library makes it easier to find and share disaster and
+    climate risk data from different risk data catalogs and projects
   background_image_blend_mode: multiply
   fullscreen_mobile: true
   height: 500px
@@ -29,7 +29,7 @@ hero:
   fullscreen_desktop: false
 description: data
 ---
-# Development Data Hub
+# 1. Development Data Hub
 
 The [Risk Data Library collection](https://datacatalog.worldbank.org/search/collections/rdl) from the World Bank data catalog contains data used for or produced by disaster and climate risk assessments and curated by the Global Facility for Disaster Reduction and Recovery (GFDRR).
 
