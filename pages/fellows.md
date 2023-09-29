@@ -5,6 +5,7 @@ layout: basic
 permalink: /fellows/
 title: Fellows
 date: 2023-09-29T14:49:57.584Z
+
 hero:
   enabled: true
   heading: "The Risk Data Fellows"
