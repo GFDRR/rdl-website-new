@@ -1,70 +1,68 @@
 ---
-layout: basic
-title: "Learn more"
-date: 2018-11-28T15:15:34+10:00
 header_transparent: true
-permalink: "/project/"
-description: ""
-image: "/assets/images/gen/content/content-5.webp"
-
+layout: basic
+permalink: /project/
+title: Learn more
+date: 2018-11-28T15:15:34+10:00
 hero:
-  enabled: true
-  heading: "Learn more"
-  sub_heading: "Why a Risk Data Library"
-  text_color: "#FFFFFF"
-  background_color: "#0b3860"
   background_gradient: false
-  background_image: ""
-  background_image_blend_mode: multiply # "overlay", "multiply", "screen"
-  fullscreen_mobile: true
-  fullscreen_desktop: false
-  height: "500px"
+  enabled: true
   buttons:
     enabled: false
     list:
-      - text: "Documentation"
-        url: "https://docs.riskdatalibrary.org/en/latest/"
+      - text: Documentation
+        url: https://docs.riskdatalibrary.org/en/latest/
         external: true
         fa_icon: false
         size: large
         outline: true
-        style: "light"
+        style: light
+  heading: Learn more
+  sub_heading: Why a Risk Data Library
+  background_image_blend_mode: multiply
+  fullscreen_mobile: true
+  height: 500px
+  background_image: ""
+  text_color: "#FFFFFF"
+  background_color: "#0b3860"
+  fullscreen_desktop: false
+image: /assets/images/gen/content/content-5.webp
+description: ""
 ---
+The Risk Data Library project is led by [the Global Facility for Disaster Reduction and Recovery (GFDRR)](https://www.gfdrr.org/en), under its [Digital Earth Thematic Area](https://www.gfdrr.org/en/digitalearthpartnership). GFDRR is a global partnership that helps developing countries better understand and reduce their vulnerability to natural hazards and climate change.
 
-# Creating Modern Websites
+# Origin of the Risk Data Library (2016-2021)
 
-Web design encompasses many different skills and disciplines in the production and maintenance of websites.
+The Risk Data Library concept emerged from research into the risk information needs and priorities of the disaster risk management (DRM) sector. In 2014, GFDRR and the UK Government Department for International Development (DfID) launched an 18-month consultation with donors, data producers and users from over a hundred organisations across the DRM community. Several priority needs were identified and seed funding made available to projects that would start to address them. The Risk Data Library began as one of these projects and addresses four of the eight priorities identified in the research:
 
-Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all. Web design partially overlaps web engineering in the broader scope of web development.
+* Plausible hazard scenarios for developing countries
+* Open and freely available vulnerability functions
+* Exposure datasets suitable for detailed risk assessment
+* An established standard for model interoperability
 
-## What is Web Design?
+[The Solving the Puzzle report ](https://www.gfdrr.org/en/solving-puzzle-innovating-reduce-risk)documents the findings and recommendations of the consultation. This report provides a community perspective on priorities for future collaboration and investment in the development and use of disaster risk information for developing countries. The focus is on high-impact activities that will promote the creation and use of risk-related data, catastrophe risk models, and platforms, and that will improve and facilitate the understanding and communication of risk assessment results.
 
-User experience is about how a user interacts with, and experiences, a particular product, system or service. As a UX designer, you should consider the Why, What and How of product use.
+![](https://www.gfdrr.org/sites/default/files/Screen%20Shot%202016-09-26%20at%206.08.34%20PM.png)
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/content-1.webp" title="Steve Francia" caption="Designing in Figma" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
+On the recommendations of ‘Solving the Puzzle’, GFDRR commissioned the development of risk data schema, comprising connected components:
 
-## Front-end Development
+* An open exposure data schema. The Global Earthquake Model Foundation (GEM) led the development of the exposure component (GED4ALL) of the RDL schema. GEM has continued to contribute to the project by developing the modeled loss component and creating the unified schema and database.
+* University College London (UCL) EPICentre developed the vulnerability component (MOVER) and has continued to refine this in collaboration with GEM.
+* The British Geological Survey (BGS) led the development of the hazard data component of the RDL schema.
+* Collaborating partners in the first phase of schema development also included HOTOSM, ImageCat, Norwegian Geotechnical Institute, NERC National Oceanographic Centre, CIMA Foundation, Earth Observatory Singapore, Global Volcano Model, and the Global Flood Partnership.
+* GeoSolutions developed an open pilot risk visualization dashboard (HEV-E), intended to visualize the contents of the hazard, exposure and vulnerability schema.
 
-The What addresses the things people can do with a product—its functionality. Finally, the How relates to the design of functionality in an accessible and aesthetically pleasant way. UX designers start with the Why before determining the What and then, finally, the How in order to create products that users can form meaningful experiences with. In software designs, you will need to ensure the product’s “substance” comes through an existing device and offers a seamless, fluid experience.
+In 2019, the existing schema was updated by GEM and UCL EPICentre and they developed a modeled loss schema.
 
-> As a UX designer, you should consider the Why, What and How of product use.
+In 2020 the existing schema, still focussed on a database format for storing data, was updated to enable closer integration of the four components by creating a unified database and common tables linking all schema.
 
-Web designers are expected to have an awareness of usability and if their role involves creating markup then they are also expected to be up to date with web accessibility guidelines.
+Through 2021, GFDRR worked with open data standards specialists to explore modifying the database schema into an open standard. At the same time, a new lightweight data catalog, using the JKAN standard, was developed as a pilot for an open data catalog.
 
-## Design Systems
+# Roadmap (2022 onwards)
 
-A Design System is a set of interconnected patterns and shared practices coherently organized to aid in digital product design and development of products such as apps or websites.
+In 2022, GFDRR obtained a grant funding from [the Swiss Re Foundation](https://www.swissrefoundation.org/) to further develop the Risk Data Library Standard, as an open standard.
 
-{% include framework/shortcodes/youtube.html id='2M6dJ2Uynhg' %}
-
-## Process
-
-There are two primary jobs involved in creating a website: the web designer and web developer, who often work closely together on a website. The web designers are responsible for the visual aspect, which includes the layout, coloring and typography of a web page.
-
-- User experience research
-- Visual design and illustration
-- Programming and coding
-
-![Design In Figma](/assets/images/gen/content/content-2.webp)
-
-Web designers will also have a working knowledge of markup languages such as HTML and CSS, although the extent of their knowledge will differ from one web designer to another.
+* GFDRR worked with the World Bank Development Data Hub (Data Catalog) team to establish t[he Risk data Library Collection](https://datacatalog.worldbank.org/search/collections/rdl).
+* GFDRR established the Disaster and Climate Risk Fellowship program, in which The Digital Earth team at GFDRR is recruiting fellows from vulnerable countries to support World Bank disaster and climate risk data projects and contribute to the adoption of the new Risk Data Library Standard. The fellowship program offers a 6-month placement for climate and disaster risk professionals from selected climate-vulnerable countries to work with the Risk Data Library Standard to access, create and communicate climate risk knowledge with their communities. The selected countries are: Bangladesh, Democratic Republic of the Congo, India, Indonesia, Philippines, and South Africa.
+* GFDRR collaborated with [the Open Data Services Co-operative](https://opendataservices.coop/) to establish the JSON standard and improve documentation and sustainability of RDLS using open standards best practice.
+* GFDRR and Swiss Re Foundation established a new steering committee for the period of the grant funding, to oversee development of the standard and outcomes of the fellowship program. The steering committee comprises members of the original development teams, and data users from the insurance industry and curators of other open data standards.
