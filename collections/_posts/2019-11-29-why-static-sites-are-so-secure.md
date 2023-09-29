@@ -10,6 +10,8 @@ categories: null
 description: GFDRR releases an open data standard to make it easier to publish,
   access, share, and use quality disaster and climate risk data.
 ---
+*[](https://www.gfdrr.org/en)This article first appeared on the Data Blog of the World Bank*
+
 [The Global Facility for Disaster Reduction and Recovery (GFDRR)](https://www.gfdrr.org/en) releases the [Risk Data Library Standard (RDLS)](https://docs.riskdatalibrary.org/), an open data standard to make it easier to publish, access, share, and use quality disaster and climate risk data.
 
 ![](assets/images/uploads/gfdrr.webp "The RDLS documentation provides guidance on how to package risk datasets and comes with a metadata conversion and validation tool to facilitate its adoption.")
@@ -62,7 +64,5 @@ Within the World Bank, the Risk Data Library has already gained traction among s
 Beyond the World Bank, initial developers from [the Global Earthquake Model Foundation](https://www.globalquakemodel.org/gem) and [UCL Epicentre](https://www.ucl.ac.uk/epicentre/epicentre-people) are actively working on specific components of the Risk Data Library, including exposure and vulnerability schemas. There is also work underway to use RDLS metadata as part of [the Open Data Standards Initiative](https://oasislmf.org/open-data-standards#:~:text=What%20is%20ODS%3F,challenges%20in%20the%20insurance%20market.) curated by the OASIS Loss Modelling Framework.
 
 We invite you to be an early adopter of the Risk Data Library Standard, too, and encourage your contributions to our new common language on risk data.
-
-
 
 For more information on how to adopt the Risk Data Library Standard or provide feedback, please visit <https://docs.riskdatalibrary.org/> or email contact@riskdatalibrary.org.
