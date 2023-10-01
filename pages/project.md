@@ -18,7 +18,7 @@ hero:
         outline: true
         style: light
   heading: Learn more
-  sub_heading: Why a Risk Data Library
+  sub_heading: Solving the puzzle of disaster risk information
   background_image_blend_mode: multiply
   fullscreen_mobile: true
   height: 500px
@@ -31,7 +31,9 @@ description: ""
 ---
 # Origin of the Risk Data Library (2016-2021)
 
-The Risk Data Library concept emerged from research into the risk information needs and priorities of the disaster risk management (DRM) sector. In 2014, GFDRR and the UK Government Department for International Development (DfID) launched an 18-month consultation with donors, data producers and users from over a hundred organisations across the DRM community. Several priority needs were identified and seed funding made available to projects that would start to address them. The Risk Data Library began as one of these projects and addresses four of the eight priorities identified in the research:
+In 2014, GFDRR and the UK Government Department for International Development (DfID) launched an 18-month consultation with donors, data producers and users from over a hundred organisations across the disaster risk management community to identify disaster risk information needs and gaps. 
+
+Several priority needs were identified and seed funding made available to projects that would start to address them. The Risk Data Library began as one of these projects and addresses four of the eight priorities identified in the research:
 
 * Plausible hazard scenarios for developing countries
 * Open and freely available vulnerability functions
@@ -65,4 +67,4 @@ In 2022, GFDRR obtained a grant funding from [the Swiss Re Foundation](https://w
 * GFDRR collaborated with [the Open Data Services Co-operative](https://opendataservices.coop/) to establish the JSON standard and improve documentation and sustainability of RDLS using open standards best practice.
 * GFDRR and Swiss Re Foundation established a new steering committee for the period of the grant funding, to oversee development of the standard and outcomes of the fellowship program. The steering committee comprises members of the original development teams, and data users from the insurance industry and curators of other open data standards.
 
-The Risk Data Library project is led by [the Global Facility for Disaster Reduction and Recovery (GFDRR)](https://www.gfdrr.org/en), under its [Digital Earth Thematic Area](https://www.gfdrr.org/en/digitalearthpartnership). GFDRR is a global partnership that helps developing countries better understand and reduce their vulnerability to natural hazards and climate change.
+The Risk Data Library project is led by a [team](/team/) from the [the Global Facility for Disaster Reduction and Recovery (GFDRR)](https://www.gfdrr.org/en), under its [Digital Earth Thematic Area](https://www.gfdrr.org/en/digitalearthpartnership). GFDRR is a global partnership that helps developing countries better understand and reduce their vulnerability to natural hazards and climate change.

@@ -33,7 +33,7 @@ intro1:
   enabled: true
   align: left
   image: "/assets/images/gen/content/content-2-thumbnail.webp"
-  heading: "Introducing the Risk Data Library Standard (RDLS)"
+  heading: "Risk Data Library Standard (RDLS)"
   sub_heading: "The RDLS is an open data standard that provides a common description of the data used and produced in risk assessments, including hazard, exposure, vulnerability, as well as loss & damage data."
   buttons:
     enabled: true
@@ -48,7 +48,7 @@ intro1:
 
 intro2:
   enabled: true
-  align: right
+  align: left
   image: "/assets/images/uploads/screenshot-from-2023-09-23-14-33-07.png"
   heading: "Find and share risk data"
   sub_heading: "Discover the early adopters of the RDLS and learn how to package and publish your own risk data and metadata according to the standard"

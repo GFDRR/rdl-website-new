@@ -1,10 +1,10 @@
 ---
+title: Fellows
+date: 2023-09-29T14:49:57.584Z
 header_transparent: true
 background-color: var(--color-base-bg);
 layout: basic
 permalink: /fellows/
-title: Fellows
-date: 2023-09-29T14:49:57.584Z
 
 hero:
   enabled: true
