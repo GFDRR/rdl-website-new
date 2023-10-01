@@ -42,4 +42,4 @@ The tools collected in this repository allow to:
 
 - Present results into an interactive dashboard
 
-![](assets/images/uploads/screenshot-from-2023-10-01-16-08-30.png)
+![](/assets/images/uploads/screenshot-from-2023-10-01-16-08-30.png)

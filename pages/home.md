@@ -63,6 +63,23 @@ intro2:
         outline: true
         style: "light"
 
+intro3:
+  enabled: true
+  align: left
+  image: "http://127.0.0.1:4000/assets/images/uploads/screenshot-from-2023-10-01-16-08-30.png"
+  heading: "Tools"
+  sub_heading: "Open source software and code for risk analytics leveraging the Risk Data Library Standard"
+  buttons:
+    enabled: true
+    list:
+      - text: "Find risk data tools"
+        url: "/tools/"
+        external: true
+        fa_icon: false
+        size: large
+        outline: true
+        style: "light"
+
 services:
   enabled: true
   heading: "Key features"

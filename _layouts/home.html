@@ -61,6 +61,21 @@ body_classes: page-home
   </div>
 {% endif %}
 
+{% if page.intro3.enabled %}
+  <div class="section">
+    <div class="container">
+      {% include framework/blocks/sections/info.html
+      heading=page.intro3.heading
+      sub_heading=page.intro3.sub_heading
+      align=page.intro3.align
+      features=page.intro3.features
+      buttons=page.intro3.buttons
+      image=page.intro3.image
+      %}
+    </div>
+  </div>
+{% endif %}
+
 {% if page.partners.enabled %}
 {% assign partners = site.data.partners %}
 {% assign partners_limit = page.partners.limit | default: 4 %}
