@@ -28,3 +28,19 @@ hero:
   fullscreen_desktop: false
 description: data
 ---
+# Climate & Disaster Risk Screening Tools
+
+A collection of scripted tools developed to inform risk analytics for the the World Bank’s Country Climate and Development Report risk screening activities (2022/2023).
+
+The tools collected in this repository allow to:
+
+- Perform spatial analytics of disaster risk for the present period (baseline) based on global datasets
+
+- Combine risk and poverty information into bi-variate maps
+
+- Produce climate risk outlook based on CMIP6 indices
+
+- Present results into an interactive dashboard
+
+
+![](assets/images/uploads/screenshot-from-2023-10-01-16-08-30.png)
