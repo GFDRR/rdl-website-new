@@ -10,7 +10,7 @@ categories: null
 description: GFDRR releases an open data standard to make it easier to publish,
   access, share, and use quality disaster and climate risk data.
 ---
-*[](https://www.gfdrr.org/en)This article first appeared on the Data Blog of the World Bank*
+[](https://blogs.worldbank.org/opendata/risk-data-library-standard-making-it-easier-work-disaster-and-climate-risk-data#)*This article first appeared on the Data Blog of the World Bank*
 
 [The Global Facility for Disaster Reduction and Recovery (GFDRR)](https://www.gfdrr.org/en) releases the [Risk Data Library Standard (RDLS)](https://docs.riskdatalibrary.org/), an open data standard to make it easier to publish, access, share, and use quality disaster and climate risk data.
 
