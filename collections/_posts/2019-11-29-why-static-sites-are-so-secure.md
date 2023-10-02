@@ -3,7 +3,7 @@ authors: null
 layout: post
 title: "Risk Data Library Standard: making it easier to work with disaster and
   climate risk data"
-date: 2023-09-29T18:03:16.292Z
+date: 2023-10-02T14:48:46.629Z
 thumbnail: /assets/images/uploads/gfdrr.webp
 image: /assets/images/uploads/gfdrr.webp
 categories: null
