@@ -1,6 +1,32 @@
 ---
 title: Risk Data Fellows
 date: 2023-10-01T20:18:08.727Z
+header_transparent: true
+layout: basic
+permalink: /fellows/
+hero:
+  background_gradient: false
+  enabled: true
+  buttons:
+    enabled: false
+    list:
+      - text: Documentation
+        url: https://docs.riskdatalibrary.org/en/latest/
+        external: true
+        fa_icon: false
+        size: large
+        outline: true
+        style: light
+  heading: Risk Data Fellows
+  sub_heading: Fellows from vulnerable countries are recruited to support World Bank disaster and climate risk data projects and learn how to use the Risk Data Library
+  background_image_blend_mode: multiply
+  fullscreen_mobile: true
+  height: 500px
+  background_image: ""
+  text_color: "#FFFFFF"
+  background_color: "#0b3860"
+  fullscreen_desktop: false
+description: data
 ---
 # **Disaster and Climate Risk Data Fellows**
 
