@@ -66,7 +66,7 @@ intro2:
 intro3:
   enabled: true
   align: left
-  image: "http://127.0.0.1:4000/assets/images/uploads/screenshot-from-2023-10-01-16-08-30.png"
+  image: "/assets/images/uploads/screenshot-from-2023-10-01-16-08-30.png"
   heading: "Tools"
   sub_heading: "Open source software and code for risk analytics leveraging the Risk Data Library Standard"
   buttons:
