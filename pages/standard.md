@@ -38,7 +38,7 @@ The RDLS is essentially an open data standard for describing disaster risk infor
 
 The standard can handle multiple types of disaster and climate risk studies, either monetary or non-monetary, using historical disaster events or probabilistic analysis. It is also designed to support different types of exposure and vulnerability functions for buildings infrastructure, people and natural assets.
 
-![RLDS Documentation](assets/images/uploads/screenshot-from-2023-09-23-14-14-14.png)
+![RLDS Documentation](/assets/images/uploads/screenshot-from-2023-09-23-14-14-14.png)
 
 ## Practical benefits
 
