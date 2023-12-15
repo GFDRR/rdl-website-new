@@ -1,9 +1,34 @@
 ---
-layout: blog
+header_transparent: true
+layout: basic
+permalink: /resources/
 title: Resources
-date: 2023-12-15T21:36:09.429Z
+date: 2018-11-28T15:15:34+10:00
+hero:
+  background_gradient: false
+  enabled: true
+  buttons:
+    enabled: false
+    list:
+      - text: Documentation
+        url: https://docs.riskdatalibrary.org/en/latest/
+        external: true
+        fa_icon: false
+        size: large
+        outline: true
+        style: light
+  heading: Tools
+  sub_heading: Research papers and reports behind the Risk Data Library Standard
+  background_image_blend_mode: multiply
+  fullscreen_mobile: true
+  height: 500px
+  background_image: ""
+  text_color: "#FFFFFF"
+  background_color: "#0b3860"
+  fullscreen_desktop: false
+description: data
 ---
-Research papers and report that led to the development of the Risk Data Library Standard
+
 
 ## Extensible Data Schemas for Hazard, Exposure and Vulnerability Data (2019)
 
