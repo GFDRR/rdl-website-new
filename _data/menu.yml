@@ -18,6 +18,9 @@ main:
       - name: Steering Committee
         url: https://github.com/GFDRR/rdl-standard/tree/0.2-dev/SteeringCommittee
         weight: 4
+       - name: Resources
+        url: /resources/
+        weight: 4
   - name: Tools
     url: /tools/
     weight: 3
