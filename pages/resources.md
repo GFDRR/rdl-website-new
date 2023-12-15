@@ -17,7 +17,7 @@ hero:
         size: large
         outline: true
         style: light
-  heading: Tools
+  heading: Resources
   sub_heading: Research papers and reports behind the Risk Data Library Standard
   background_image_blend_mode: multiply
   fullscreen_mobile: true
