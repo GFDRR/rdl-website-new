@@ -43,7 +43,7 @@ footer_primary:
     weight: 3
 footer_secondary:
   - name: About
-    url: /about/
+    url: /project/
     weight: 2
   - name: Team
     url: /team/
