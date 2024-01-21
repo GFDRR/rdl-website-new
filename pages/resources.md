@@ -28,7 +28,13 @@ hero:
   fullscreen_desktop: false
 description: data
 ---
+## Risk Data Library Standard Technical Review (January 2023)
 
+This report summarises the findings and resulting recommendations following a technical review of the Risk Data Library Standard (RDLS) by Open Data Services Co-operative. This
+assessment incorporates the RDLS User Documentation and the two GFDRR GitHub repositories associated with the standard, rdl-docs and rdl-standard.
+
+[Risk Data Library Standard Technical Review]
+(http://riskdatalibrary.org/assets/docs/2023-01%20ODS%20-%20Risk%20Data%20Library%20Standard%20Technical%20Review%20%23shared.pdf)
 
 ## Extensible Data Schemas for Hazard, Exposure and Vulnerability Data (2019)
 
