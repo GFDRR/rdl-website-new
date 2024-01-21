@@ -3,7 +3,7 @@ header_transparent: true
 layout: basic
 permalink: /resources/
 title: Resources
-date: 2018-11-28T15:15:34+10:00
+date: 2024-01-21T17:39:33.706Z
 hero:
   background_gradient: false
   enabled: true
