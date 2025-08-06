@@ -10,9 +10,9 @@ description: Hiring of Risk Data Library Developer and Risk Data Library Steward
 
 As part of the Risk Data Library project - our effort to make disaster risk information more easily available and usable to all - we’re looking for two individual consultants to join our team:
 
-🔹 Risk Data Library Developer
+🔹 [Risk Data Library Developer](https://riskdatalibrary.org/assets/images/uploads/Risk%20Data%20Library%20Developer.pdf)
 
-🔹 Risk Data Library Steward
+🔹 [Risk Data Library Steward](https://riskdatalibrary.org/assets/images/uploads/Risk%20Data%20Library%20Steward.pdf)
 
 These roles are supported by the [Gates Foundation](https://www.linkedin.com/feed/#), through a collaboration with [Global Facility for Disaster Reduction and Recovery (GFDRR)](https://www.linkedin.com/feed/#), to develop and promote digital public goods to help cities become more resilient.
 
