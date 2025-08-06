@@ -18,4 +18,4 @@ These roles are supported by the [Gates Foundation](https://www.linkedin.com/fee
 
 If you're passionate about open data, digital infrastructure, and urban resilience, we’d love to hear from you!
 
-**\#DigitalPublicGoods** **\#DisasterRiskData** **\#UrbanResilience** **\#GFDRR** **\#OpenData** **\#TechForGood** **\#GatesFoundation**
+Pierre
